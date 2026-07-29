@@ -89,4 +89,4 @@ Your browser opens `http://localhost:3000` automatically.
 ### Disclaimer
 
 All output is structured evidence and empirical frequency — **not investment advice**. The cost distribution is estimated from public price/volume, not actual holdings; it cannot identify holders or their intent. Delisting and liquidity risk of small-cap assets are outside this framework's scope.
-![image](https://github.com/b24333666/tideline-win/blob/main/home_en.png)
+

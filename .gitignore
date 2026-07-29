@@ -1,0 +1,14 @@
+# Secrets — never commit API keys
+.data/keys.json
+
+# Runtime caches (regenerated on use)
+app/.data/prices-v2/
+app/.data/*.json
+
+# Portable Node runtime downloaded by launchers
+runtime/
+runtime_tmp/
+
+# OS noise
+.DS_Store
+Thumbs.db

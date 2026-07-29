@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/big3/route": "/api/big3",
+  "/api/history-audit/route": "/api/history-audit",
+  "/api/no-data-report/route": "/api/no-data-report",
+  "/api/overview/route": "/api/overview",
+  "/api/pairs/route": "/api/pairs",
+  "/api/analyze/[ticker]/route": "/api/analyze/[ticker]",
+  "/api/rotation/route": "/api/rotation",
+  "/api/screen/route": "/api/screen",
+  "/api/series/[ticker]/route": "/api/series/[ticker]",
+  "/api/custom/[symbol]/route": "/api/custom/[symbol]",
+  "/api/source-status/[ticker]/route": "/api/source-status/[ticker]",
+  "/api/status/route": "/api/status",
+  "/api/holdings/[ticker]/route": "/api/holdings/[ticker]",
+  "/api/ratio/route": "/api/ratio",
+  "/api/snapshot/route": "/api/snapshot",
+  "/page": "/"
+}

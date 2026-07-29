@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/big3/route": "app/api/big3/route.js",
+  "/api/history-audit/route": "app/api/history-audit/route.js",
+  "/api/no-data-report/route": "app/api/no-data-report/route.js",
+  "/api/overview/route": "app/api/overview/route.js",
+  "/api/pairs/route": "app/api/pairs/route.js",
+  "/api/analyze/[ticker]/route": "app/api/analyze/[ticker]/route.js",
+  "/api/rotation/route": "app/api/rotation/route.js",
+  "/api/screen/route": "app/api/screen/route.js",
+  "/api/series/[ticker]/route": "app/api/series/[ticker]/route.js",
+  "/api/custom/[symbol]/route": "app/api/custom/[symbol]/route.js",
+  "/api/source-status/[ticker]/route": "app/api/source-status/[ticker]/route.js",
+  "/api/status/route": "app/api/status/route.js",
+  "/api/holdings/[ticker]/route": "app/api/holdings/[ticker]/route.js",
+  "/api/ratio/route": "app/api/ratio/route.js",
+  "/api/snapshot/route": "app/api/snapshot/route.js",
+  "/page": "app/page.js"
+}

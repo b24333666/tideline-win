@@ -13,6 +13,27 @@ const nextConfig = {"env":{},"webpack":null,"eslint":{"ignoreDuringBuilds":false
 
 process.env.__NEXT_PRIVATE_STANDALONE_CONFIG = JSON.stringify(nextConfig)
 
+/* TIDELINE patch: force browser revalidation of build assets so edited
+   chunks/CSS are never served stale (ETag makes unchanged files cost a 304). */
+;(function(){
+  try{
+    const http = require('http');
+    const proto = http.ServerResponse.prototype;
+    const _set = proto.setHeader;
+    proto.setHeader = function(name, value){
+      try{
+        if (String(name).toLowerCase() === 'cache-control') {
+          const url = (this.req && this.req.url) || '';
+          if (url.indexOf('/_next/static/') === 0 || url.indexOf('/_next/static/') > 0) {
+            return _set.call(this, name, 'no-cache, must-revalidate');
+          }
+        }
+      }catch(e){}
+      return _set.call(this, name, value);
+    };
+  }catch(e){}
+})();
+
 require('next')
 const { startServer } = require('next/dist/server/lib/start-server')
 

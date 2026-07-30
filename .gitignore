@@ -12,3 +12,7 @@ runtime_tmp/
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Scan caches (regenerated on use)
+app/.data/scan-v1/
+app/.data/

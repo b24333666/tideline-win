@@ -24,6 +24,12 @@ TIDELINE 以單一週線框架回答一個問題:**這個標的現在位於長�
 - **紅藍多空攻防** — 吸收/派發控盤轉換的時間序列
 - **進出場條件梯** — 明確的觸發、失效與退出條件,附歷史基礎率
 - **自動降階** — 史料不足 156 週時降階至 2 日線判定,並於頁面明確標示
+- **當前報價** — 美股/台股共 264 檔分領域總覽表:階段、現價、5 年位置、裁決變數、情緒與判斷章,可依判斷別/位置/裁決篩選與排序,點代號直接帶入自選分析
+- **關注列表** — 自訂任意代號(美股、台股、加密),支援自定義分類切換,清單存於瀏覽器本機
+- **動法組態器** — 位置錨 × 階段錨衝突仲裁,把「動不動」推進到「怎麼動」:輸出六維成句(方向/規模/進場/觸發/失效/出場)與八種動法一致性檢核,裁決門檻可手調
+- **互動價格圖** — 全歷史日線,滾輪縮放、拖曳平移、對數座標、量能顯示;狀態以整高色塊標示,並附狀態轉變清單可跳轉
+- **市場情緒週期** — Wall St. 13 階段情緒對照(一日晝夜視覺化),含信心標示。**僅供直覺理解,不參與任何裁決**
+- **三語介面** — 繁體中文 / 簡體中文 / English 即時切換
 
 ### 快速開始(免安裝)
 
@@ -68,6 +74,12 @@ Bayesian inference over the asset's own historical phase transitions yields post
 - **Red-blue tug-of-war** — a time series of absorption/distribution regime shifts
 - **Entry/exit condition ladders** — explicit triggers, invalidation, and exit rules with historical base rates
 - **Automatic downgrade** — with under 156 weeks of history, the judging frame downgrades to 2-day bars and says so on the page
+- **Quotes** — a 264-symbol US/TW overview grouped by sector: phase, price, 5-year position, arbiters, emotion and verdict; filter and sort by verdict, position or arbiter, and click a symbol to load it into Custom
+- **Watchlist** — track any symbol (US, TW, crypto) with user-defined categories, stored locally in your browser
+- **Play Configurator** — position × phase conflict arbitration that turns "act or not" into "how to act": a six-dimension read (direction / size / entry / trigger / invalidation / exit) plus eight play-consistency checks, with adjustable arbiter thresholds
+- **Interactive chart** — full daily history with scroll-zoom, drag-pan, log scale and volume; states are drawn as full-height blocks with a clickable state-change list
+- **Market emotion cycle** — the Wall St. 13-stage emotion map rendered as a day/night arc, with an explicit confidence flag. **Display only — it never feeds any verdict**
+- **Trilingual UI** — Traditional Chinese / Simplified Chinese / English, switched live
 
 ### Quick start (zero-install)
 

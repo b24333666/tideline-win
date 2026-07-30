@@ -53,6 +53,7 @@ TIDELINE 以單一週線框架回答一個問題:**這個標的現在位於長�
 所有輸出為結構化證據與經驗頻率,**非投資建議**。成本分布由公開價量推估,非真實持股資料,無法識別持有者身分與意圖。小市值標的之下市與流動性風險不在本框架涵蓋範圍。
 
 ![image](https://github.com/b24333666/tideline-win/blob/main/home_ct.png)
+![image](https://github.com/b24333666/tideline-win/blob/main/COIN_20260731.png)
 
 ---
 
